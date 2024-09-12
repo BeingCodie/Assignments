@@ -11,9 +11,7 @@ using namespace std;
      return res;
     }
 int main(){
-    int num;
-   cout<<"enter a number"<<endl;
-   cin>>num;
-    cout<<"sum of digit "<<dig(num)<<endl;
+    int num =121;
+    cout<<"sum of "<<num<<" is "<<dig(num)<<endl;
     return 0;
 }
