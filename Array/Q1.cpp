@@ -8,6 +8,6 @@ int main()
     cout << num[1] << endl;
     cout << num[2] << endl;
     cout << num[3] << endl;         // 0 will be initialize to it 
-
+    cout << sizeof(num) << endl; // 40 size print in bytes (int contains 4 bytes)
     return 0;
 }
